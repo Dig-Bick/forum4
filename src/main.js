@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import ElementPlus from 'element-plus';
+import Vue from 'vue';
 import 'element-plus/dist/index.css';
 import http from "./http";
 import axios from 'axios';
@@ -10,6 +11,7 @@ import axios from 'axios';
 const app = createApp(App);
 app.use(router);
 app.use(store);
+
 app.use(ElementPlus);
 app.config.globalProperties.$http = http;
 app.mount('#app');
