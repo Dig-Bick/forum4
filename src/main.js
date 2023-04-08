@@ -4,7 +4,7 @@ import router from './router';
 import store from './store';
 import ElementPlus from 'element-plus';
 import Vue from 'vue';
-import 'element-plus/dist/index.css';
+import "element-plus/theme-chalk/index.css";
 import http from "./http";
 import axios from 'axios';
 

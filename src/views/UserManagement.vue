@@ -37,7 +37,7 @@
 
     <el-dialog
       title="编辑用户"
-      :visible.sync="editDialogVisible"
+      v-model="editDialogVisible"
       width="30%"
       @close="cancelEdit"
     >
