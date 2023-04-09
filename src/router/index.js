@@ -9,6 +9,7 @@ import PostList from "../components/PostList.vue";
 import PostDetails from "../components/PostDetails.vue";
 import CategoryList from "../components/CategoryList.vue";
 import CategoryDetails from "../components/CategoryDetails.vue";
+import HomePage from "../components/HomePage.vue";
 
 const routes = [
   // {
@@ -72,6 +73,11 @@ const routes = [
     path: "/categories/:id",
     name: "category-details",
     component: CategoryDetails,
+  },
+   {
+    path: "/home",
+    name: "home",
+    component: HomePage,
   },
 ];
 
